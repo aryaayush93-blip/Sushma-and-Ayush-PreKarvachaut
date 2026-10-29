@@ -555,6 +555,28 @@ p, h1, h2 {
   }
 }
 
+/* Karwa Chauth illustrated scene */
+.karwa-art {
+  width: 100%;
+  max-width: 380px;
+  margin: 24px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 35px rgba(246,217,155,.25);
+}
+
+.karwa-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .karwa-art {
+    max-width: 100%;
+  }
+}
+
   </style>
 </head>
 
@@ -679,6 +701,30 @@ href="https://www.youtube.com/watch?v=JPuUe_Ndn44"          target="_blank"
   </section>
 
   <!-- MOON AND SUSHMA PHOTO REVEAL -->
+
+<section id="karwaScene">
+  <p class="small">EK KHWAAB, HUM DONO KA</p>
+  <h2>Ek Din, Aise Hi... 🌙</h2>
+
+  <div class="karwa-art">
+    <img
+      src="karwa-chauth-scene.png"
+      alt="A romantic Karwa Chauth celebration"
+      loading="lazy"
+    >
+  </div>
+
+  <p>
+    Ek din, isi chaand ke neeche,<br>
+    tum mere saamne hogi, Betu...<br>
+    aur humari apni ek khoobsurat
+    si duniya hogi. ❤️
+  </p>
+
+  <button onclick="goTo('moonScene')">
+    Ab Mera Asli Chaand Dekho 🌙
+  </button>
+</section>
 
   <section id="moonScene">
     <p class="small">EK CHHOTI SI RASAM, SIRF HUMARI</p>
